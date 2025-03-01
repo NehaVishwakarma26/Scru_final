@@ -21,7 +21,7 @@
   .grid-2column {margin: 0 -12px;}
   .feedback-section-one .slider-arrows {right: 10px;}
   .card-style-two h4 {font-size: 25px;}
-  .card-style-two {padding: 40px 20px 15px;}
+  .card-style-two {padding: 40px 20px 15px;max-width: 300px;min-height: 370px;}
   .feedback-card-one.version-two h4 {font-size: 24px;}
   .feedback-card-one.version-two {padding: 35px 20px 33px;}
   .blog-meta-one .line {left: 20px;}
