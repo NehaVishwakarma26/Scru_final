@@ -20,8 +20,11 @@
   .grid-2column .grid-sizer, .grid-2column .isotop-item {padding: 0 12px;}
   .grid-2column {margin: 0 -12px;}
   .feedback-section-one .slider-arrows {right: 10px;}
-  .card-style-two h4 {font-size: 25px;}
-  .card-style-two {padding: 40px 20px 15px;max-width: 300px;min-height: 370px;}
+  .card-style-two h4 {
+    font-size: 18px;
+    padding: 10px;
+}
+  .card-style-two {padding: 40px 20px 15px;max-width: 100%;min-height: 370px;}
   .feedback-card-one.version-two h4 {font-size: 24px;}
   .feedback-card-one.version-two {padding: 35px 20px 33px;}
   .blog-meta-one .line {left: 20px;}
@@ -347,7 +350,7 @@
   .footer-one .newsletter-area h2 {text-align: center; margin-bottom: 25px;}
   .footer-one .footer-nav-link a,.footer-one .footer-contact p,
   .footer-one .bottom-footer .copyright-text,.footer-one .bottom-footer ul li a {font-size: 18px;}
-  .hero-banner-two .hero-heading {font-size: 45px; line-height: 1.1em;}
+  .hero-banner-two .hero-heading {font-size: 45px; line-height: 1.1em; text-align: center;}
   .hero-banner-two .hero-heading img {width: 80px;}
   .hero-banner-two .screen_03,.hero-banner-two .screen_05 {left: 1%;}
   .hero-banner-two .screen_02 {top:50%; right: 24%;}
@@ -496,7 +499,7 @@
     margin: 0 auto;
     width: 55px;
   }
-  .theme-main-menu .logo img {width: 145px;}
+  .theme-main-menu .logo img {width: 110px;}
   .footer-one .newsletter-area form input {padding-left: 20px;}
   .footer-one .footer-intro h6 {font-size: 17px;}
   .footer-one .social-icon li a {font-size: 25px;}
