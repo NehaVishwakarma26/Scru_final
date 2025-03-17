@@ -23,9 +23,9 @@
 	<meta name="msapplication-navbutton-color" content="#FFEB88">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#FFEB88">
-	<title>SCRU - Creative SAAS & Agency HTML5 Template</title>
+	<title>HQ+</title>
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+	<link rel="icon" type="image/png" sizes="56x56" href="images/logo/logocompany-removebg-preview.png">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<!-- Main style sheet -->
@@ -125,6 +125,16 @@
 										</a>
 										
 									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+											data-bs-auto-close="outside" aria-expanded="false">Blog
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="blog-v1.html" class="dropdown-item"><span>Blog List</span></a></li>
+											<li><a href="blog-details.html" class="dropdown-item"><span>Blog Details</span></a></li>
+										</ul>
+									</li>
 									
 								</ul>
 							</div>
@@ -150,7 +160,7 @@
                         <p class="fs-22 text-dark mt-20 mb-50 lg-mb-30 text-md-start text-center" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">Space to Work and Room to Grow</p>
 						
 						<ul class="style-none d-flex flex-wrap mb-30 justify-content-center justify-content-md-start">
-							<li class="mt-10 me-3"  data-sal="slide-right" data-sal-duration="800" data-sal-delay="500"><a href="project-v2.html" class="btn-one xl">Book Now</a></li>
+							<li class="mt-10 me-3"  data-sal="slide-right" data-sal-duration="800" data-sal-delay="500"><a href="contact.html" class="btn-one xl">Book Now</a></li>
 							<!-- <li class="mt-10"  data-sal="slide-left" data-sal-duration="800" data-sal-delay="500"><a href="contact.html" class="btn-two no-border">Contact</a></li> -->
 						</ul>
                         <!-- <div class="customer-count d-flex align-items-center" data-sal="slide-up" data-sal-duration="800" data-sal-delay="700">
@@ -378,44 +388,116 @@
 			</div>
 		</div>
 		
-		<div class="feature-block-one position-relative z-1 mt-150 lg-mt-100 pb-150 lg-pb-100">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 m-auto">
-						<div class="title-one text-center mb-40 md-mb-20" data-sal="slide-up" data-sal-duration="800">
-							<div class="upper-title">Coworking Space Solution</div>
-							<h2>Top Coworking HQ in BANGALORE, MUMBAI, GURUGRAM</h2>
-						</div>
-					</div>
-				</div>
 		
-				<div class="row gx-lg-4">
-					<div class="col-lg-4" data-sal="slide-up" data-sal-duration="800">
-						<div class="card-style-two mt-25" >
-							<img src="images\solution\solution-1.jpg" class="feature-img" alt="">
+<style>
+  
+    .process-container {
+		background-color: black;
+        max-width: 800px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    .process-step {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+        background: #111;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+    }
+    .process-step.active {
+        opacity: 1;
+        transform: translateY(0);
+        margin: 1em;
+    }
+    .step-number {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    .process-step h4{
+        color: white;
+    }
+</style>
+</head>
+<body>
+	<section class="pt-15 pb-6" style="background-color: black !important; ">
 
-							<h4 class="d-inline-block w-100 text-wrap">Private Office</h4>
-						</div>
-					</div>
-		
-					<div class="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-						<div class="card-style-two mt-25">
-							<img src="images\solution\solution-2.jpg" class="feature-img" alt="">
-
-							<h4 class="d-inline-block w-100 text-wrap">Meeting Space</h4>
-						</div>
-					</div>
-		
-					<div class="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
-						<div class="card-style-two mt-25">
-							<img src="images\solution\solution-3.jpg" class="feature-img" alt="">
-
-							<h4 class="d-inline-block w-100 text-wrap">Custom Space</h4>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="text-center">
+			<h1 class="fw-bold mt-5 text-white pt-5">Our Process:</h1>
+			<p class="text-secondary m-1">We manage the entire process from space design and build-out to project management...</p>
 		</div>
+		
+		<div class="process-container pb-10">
+		
+			<div class="process-step">
+				<div class="d-flex align-items-center">
+					<span class="step-number">1</span>
+					<h4 class="mb-0">Project Kickoff</h4>
+				</div>
+				<p class="mt-2">We meet with you to understand your workspace requirement...</p>
+			</div>
+		
+			<div class="process-step">
+				<div class="d-flex align-items-center">
+					<span class="step-number">2</span>
+					<h4 class="mb-0">Real Estate Recce</h4>
+				</div>
+				<p class="mt-2">Our workspace strategists find the best real estate opportunities...</p>
+			</div>
+		
+			<div class="process-step">
+				<div class="d-flex align-items-center">
+					<span class="step-number">3</span>
+					<h4 class="mb-0">Workspace Setup</h4>
+				</div>
+				<p class="mt-2">We design, furnish, and set up the workspace tailored to your needs...</p>
+			</div>
+		
+			<div class="process-step">
+				<div class="d-flex align-items-center">
+					<span class="step-number">4</span>
+					<h4 class="mb-0">Handover & Support</h4>
+				</div>
+				<p class="mt-2">Final walkthrough and continued support for seamless operation...</p>
+			</div>
+		
+		</div>
+	</section>
+	
+
+<!-- JavaScript for Scroll Animation -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const steps = document.querySelectorAll(".process-step");
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("active");
+                }
+            });
+        }, { threshold: 0.3 });
+
+        steps.forEach(step => observer.observe(step));
+    });
+</script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- Material Icons Link -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 		
 		<!-- /.feature-block-one -->
 
