@@ -279,6 +279,72 @@
                     </div>
                 </div>
                 
+                <style>
+                    /* Glimpse Section */
+                    .glimpse-section {
+                      padding: 60px 20px;
+                      text-align: center;
+                    }
+                  
+                    .glimpse-heading {
+                      font-size: 2.5rem;
+                      font-weight: bold;
+                      margin-bottom: 20px;
+                    }
+                  
+                    .glimpse-container {
+                      display: flex;
+                      overflow-x: auto;
+                      scroll-snap-type: x mandatory;
+                      gap: 15px;
+                      padding-bottom: 10px;
+                    }
+                  
+                    .glimpse-card {
+                      flex: 0 0 auto;
+                      width: 100%;
+                      max-width: 300px; /* Default for mobile */
+                      scroll-snap-align: start;
+                      border-radius: 10px;
+                      overflow: hidden;
+                    }
+                  
+                    .glimpse-card img {
+                      width: 100%;
+                      height: auto;
+                      border-radius: 10px;
+                    }
+                  
+                    /* Scrollbar Styling */
+                    .glimpse-container::-webkit-scrollbar {
+                      height: 8px;
+                    }
+                  
+                    .glimpse-container::-webkit-scrollbar-thumb {
+                      background: #999;
+                      border-radius: 10px;
+                    }
+                  
+                    /* Responsive Design */
+                    @media (min-width: 768px) {
+                      .glimpse-card {
+                        max-width: calc(33.33% - 15px); /* 3 items per row */
+                      }
+                    }
+                  </style>
+                  
+                  <div class="glimpse-section">
+                    <h2 class="glimpse-heading">Glimpse of Our Space</h2>
+                    <div id="glimpse-scroll" class="glimpse-container">
+                      <div class="glimpse-card"><img src="images/koramangla/k1.jpeg" alt="Glimpse 1"></div>
+                      <div class="glimpse-card"><img src="images/koramangla/k2.jpeg" alt="Glimpse 2"></div>
+                      <div class="glimpse-card"><img src="images/koramangla/k3.jpeg" alt="Glimpse 3"></div>
+                      <div class="glimpse-card"><img src="images/koramangla/k4.jpeg" alt="Glimpse 4"></div>
+                      <div class="glimpse-card"><img src="images/koramangla/k5.jpeg" alt="Glimpse 5"></div>
+                      <div class="glimpse-card"><img src="images/koramangla/k6.jpeg" alt="Glimpse 6"></div>
+                    </div>
+                  </div>
+                  
 
                 <div class="position-relative z-1 py-5">
                     <h2 class="text-center mb-4 fw-bold" style="font-size: 2.5rem; line-height: 1.2;">Pricing & Plans</h2>
